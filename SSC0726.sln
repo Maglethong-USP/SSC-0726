@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSC0726.Service", "SSC0726.Service\SSC0726.Service.csproj", "{7042572E-9D5C-42C8-98B5-325AD398CF0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSC0726.ConsoleClient", "SSC0726.ConsoleClient\SSC0726.ConsoleClient.csproj", "{5ECC174D-578B-42F6-ACCB-561A979E573F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7042572E-9D5C-42C8-98B5-325AD398CF0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7042572E-9D5C-42C8-98B5-325AD398CF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7042572E-9D5C-42C8-98B5-325AD398CF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7042572E-9D5C-42C8-98B5-325AD398CF0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ECC174D-578B-42F6-ACCB-561A979E573F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ECC174D-578B-42F6-ACCB-561A979E573F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ECC174D-578B-42F6-ACCB-561A979E573F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ECC174D-578B-42F6-ACCB-561A979E573F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
