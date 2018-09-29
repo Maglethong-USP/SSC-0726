@@ -42,9 +42,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="generated" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Swagger.Client.CSharp4\Swagger.Client.CSharp4.csproj">
       <Project>{ba4cd26e-50b1-46b2-a5f2-8a41096bcee9}</Project>
       <Name>Swagger.Client.CSharp4</Name>
