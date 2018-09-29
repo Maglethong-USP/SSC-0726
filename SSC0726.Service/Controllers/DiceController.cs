@@ -10,6 +10,7 @@ namespace SSC0726.Service.Controllers
     public class DiceController : Controller
     {
         [HttpGet]
+        [ProducesResponseType(typeof(DiceDto), 200)]
         public IActionResult Index(
             [FromQuery] int sides = 6,
             [FromQuery] int amount = 1
@@ -21,7 +22,7 @@ namespace SSC0726.Service.Controllers
                 ret.Add(new Random().Next(1, sides +1));
             }
             
-            return Ok(new
+            return Ok(new DiceDto
             {
                 Sum = ret.Aggregate((a, b) => a + b),
                 Avg = ret.Average(),
@@ -32,5 +33,13 @@ namespace SSC0726.Service.Controllers
                     .ToDictionary(g => g.Key, g => g.Count())
             });
         }
+    }
+
+    public class DiceDto
+    {
+        public int Sum;
+        public double Avg;
+        public IEnumerable<int> Values;
+        public Dictionary<int, int> Distrib;
     }
 }
