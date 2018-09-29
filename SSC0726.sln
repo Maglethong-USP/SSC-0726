@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSC0726.Service", "SSC0726.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSC0726.ConsoleClient", "SSC0726.ConsoleClient\SSC0726.ConsoleClient.csproj", "{5ECC174D-578B-42F6-ACCB-561A979E573F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swagger.Client.CSharp4", "Swagger.Client.CSharp4\Swagger.Client.CSharp4.csproj", "{BA4CD26E-50B1-46B2-A5F2-8A41096BCEE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{5ECC174D-578B-42F6-ACCB-561A979E573F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5ECC174D-578B-42F6-ACCB-561A979E573F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5ECC174D-578B-42F6-ACCB-561A979E573F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA4CD26E-50B1-46B2-A5F2-8A41096BCEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA4CD26E-50B1-46B2-A5F2-8A41096BCEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA4CD26E-50B1-46B2-A5F2-8A41096BCEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA4CD26E-50B1-46B2-A5F2-8A41096BCEE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
